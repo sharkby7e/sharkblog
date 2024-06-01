@@ -5,7 +5,7 @@ const { href, class: className, ...props } = Astro.props;
 
 const { pathname } = Astro.url;
 const isActive =
-  (pathname.includes(href) && href != "/") ||
+  (href.includes(pathname) && pathname != "/") ||
   href === pathname.replace(/\/$/, "") ||
   (href === "/" && pathname === "/");
 ---

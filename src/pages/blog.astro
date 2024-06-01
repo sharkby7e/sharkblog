@@ -27,17 +27,16 @@ const posts = (await Astro.glob("./blog/*.{md,mdx}")).sort(
       ul li time {
         flex: 0 0 130px;
         font-style: italic;
-        color: black;
       }
       ul li a:visited {
-        color: #8b5cf6;
+        color: #6366f1;
       }
     </style>
   </head>
   <body>
     <Header />
     <main>
-      <section>
+      <section style="padding-top: 8px">
         <ul>
           {
             posts.map((post) => (

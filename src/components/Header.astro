@@ -4,12 +4,14 @@ import { SITE_TITLE } from "../config";
 ---
 
 <header>
-  <h2 class="text-3xl text-slate-900 font-bold">
-    {SITE_TITLE}
-  </h2>
+  <a href="/" style="text-decoration:none">
+    <h2 style="color: #9ca3af; font-weight: bold">
+      {SITE_TITLE}
+    </h2>
+  </a>
   <nav>
     <HeaderLink href="/">Home</HeaderLink>
-    <HeaderLink href="/about">About</HeaderLink>
+    <HeaderLink href="/about#about-me">About</HeaderLink>
     <HeaderLink href="/blog">Blog</HeaderLink>
     <HeaderLink href="https://github.com/sharkby7e" target="_blank"
       >GitHub</HeaderLink
