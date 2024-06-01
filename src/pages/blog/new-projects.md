@@ -1,11 +1,9 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "Starting a new project"
+title: "The Knight's Tour"
 description: "A knight's tour"
 pubDate: "March 8, 2024"
 ---
-
-### Getting back on the train
 
 I started a new project with my friend David, one that I have been wanting to do for a while. 
 It's a website for us to try and work on the <a href="https://en.wikipedia.org/wiki/Knight%27s_tour">Knight's Tour</a> puzzle.

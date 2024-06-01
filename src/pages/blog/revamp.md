@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "Getting back on the train"
-description: "Starting as a Junior Dev at Backerkit"
+description: ""
 pubDate: "March 8, 2024"
 ---
 

@@ -5,30 +5,36 @@ import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header title={SITE_TITLE} />
-		<main>
-			<h1 style="color: #d6d6d6">Hello, Friend!</h1>
-			<p> Welcome to my new site! I built the site using 
-			<a href="https://astro.build/" target="_blank">Astro</a>, and
-		  deployed on 
-			<a href="https://vercel.com" target="_blank">Vercel</a>.
-			</p>
-			<p>Here's why I'm making this site:</p>
-			<ul>
-				<li>To reflect on my learnings as a developer</li>
-				<li>To share what I'm doing with people, both in my career, and in life life.</li>
-				<li>To improve my typing and written communication skills</li>
-			</ul>
-			<p>
-		  Thanks for stopping by! Feel free to checkout my blog and links above!
-			</p>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <h1 style="color: #d6d6d6">Hello, Friend!</h1>
+      <p>
+        Welcome to my new site that I built it using
+        <a href="https://astro.build/" target="_blank">Astro</a>!
+      </p>
+      <p>
+        I want to keep this site simple for now, but here are some things that I
+        want to try and improve:
+      </p>
+      <ul style="">
+        <li>Better looking blog links on the blog</li>
+        <li>More color and better style in general</li>
+        <li>
+          Some sort of way to publish blogs directly without having to deploy
+        </li>
+      </ul>
+    </main>
+    <p>
+      <strong style="color:#d6d6d6 ">Thanks for stopping by!</strong> Feel free to
+      checkout my blog and links above!
+    </p>
+
+    <Footer />
+  </body>
 </html>
