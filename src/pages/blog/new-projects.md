@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "The Knight's Tour"
 description: "A knight's tour"
-pubDate: "March 8, 2024"
+pubDate: "May 31, 2024"
 ---
 
 I started a new project with my friend David, one that I have been wanting to do for a while. 
